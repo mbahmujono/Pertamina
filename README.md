@@ -25,6 +25,7 @@ for further inquiry check our website at: business.matter.co.id
 - Pip package manager
 - Pipenv
 - MongoDB run Locally/Server
+- AWS CLI for Bedrock Integration
 
 ### Installation
 
