@@ -21,8 +21,10 @@ for further inquiry check our website at: business.matter.co.id
 
 ### Prerequisites
 
-- Python 3.x
+- Python 3.9 or higher
 - Pip package manager
+- Pipenv
+- MongoDB run Locally/Server
 
 ### Installation
 
@@ -36,10 +38,22 @@ for further inquiry check our website at: business.matter.co.id
    cd Pertamina
    ```
 
-3. **Install dependencies**
+3. **Install dependencies and activate the environment**
    ```bash
-   pip install -r requirements.txt
+   pip install pipenv
+   pipenv install
+   pipenv shell
    ```
+
+4. **Update .env**
+   ```env
+   WEBHOOK_URL = http://localhost:5000/webhook # your localhost URL for webhook
+   MONGO_URI = mongodb://localhost:27017/ # your mongodb connection
+   MONGO_DB = test # your mongo db
+   MONGO_COLLECTION = test # your mongo collection
+   ```
+
+   
 
 ### Running the Application
 
