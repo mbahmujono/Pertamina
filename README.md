@@ -5,7 +5,7 @@
 
 This project is focused on developing a demand forecasting application using Machine Learning, specifically the ARIMA (AutoRegressive Integrated Moving Average) model. The app is built with Streamlit, enabling an interactive web interface, and uses Pandas for efficient data handling. Additionally, the application is integrated with a Flask-based webhook to receive and process streaming data.
 
-We use AWS Bedrock as base LLM Foundational Model for this project for data analytical purpose. You can add agent functionality and knowledge base - RAG for this model by hardcoding it or use AWS Console
+We use AWS Bedrock as base LLM Foundational Model for this project for data analytical purpose. You can add agent functionality and knowledge base - RAG for this model by using Langchain or use AWS Bedrock Console
 
 for further inquiry check our website at: business.matter.co.id
 
